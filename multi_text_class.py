@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 import numpy as np
 import pandas as pd
 import re
@@ -112,9 +106,6 @@ predicted_emotion = emotion_labels[example_pred_class[0]]
 
 print(f"Example text: {example_text[0]}")
 print(f"Predicted emotion: {predicted_emotion}")
-
-
-# In[ ]:
 
 
 
